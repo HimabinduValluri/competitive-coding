@@ -1,0 +1,21 @@
+
+class Solution:
+    def longest(self, arr):
+        
+    
+        long = arr[0]   
+        maximum_len = len(arr[0])
+        
+        for name in arr[1:]:
+            if len(name) > maximum_len:  
+                maximum_len = len(name)
+                long = name
+            
+        
+        return long
+
+
+
+        
+        
+        
